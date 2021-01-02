@@ -1,0 +1,32 @@
+body {
+	background: #df8a0d;
+}
+
+
+@font-face {
+	font-family: Pecita;
+	src: url("font/Pecita.otf") format("opentype");
+}
+
+
+
+h1 {
+	font-family: Pecita, sans-serif;
+	font-feature-settings: 'liga';
+	font-feature-settings: 'calt';
+	font-feature-settings: 'locl';
+	font-feature-settings: 'rand';
+	font-feature-settings: 'smcp';
+	font-feature-settings: 'subs';
+	font-feature-settings: 'sups';
+
+}
+
+
+
+
+
+
+
+
+
