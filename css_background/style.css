@@ -1,0 +1,32 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    background-image: url("images/batthern.png");
+    font-size: 14px;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://picsum.photos/1000/1000");
+    border: 1px solid #ccc;
+}
+
+#container p {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+
