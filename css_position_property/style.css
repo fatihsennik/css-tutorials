@@ -1,0 +1,103 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/position*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background: url(https://picsum.photos/1000/1000) no-repeat center bottom;
+    background-size: cover;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+h1 {
+    margin: 0 0 .4em 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0 0 .9em 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.1em;
+    font-style: italic;
+    color: #233e71;
+}
+
+article {
+    margin: 20px auto 0 auto;
+    border-radius: 8px;
+    padding: 15px 25px 25px 25px;
+    background-color: rgba(255, 255, 255, .65);
+}
+
+aside {
+    width: 150px;
+    padding: 15px 10px 20px 45px;
+    background-color: #233e72;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+aside img {
+    position: absolute;
+    top: -10px;
+    left: -12px;
+}
+
+aside h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0 0 10px 0;
+    position: relative;
+  /*  top: 10px;*/
+}
+
+aside p {
+    font-size: .9em;
+    line-height: 1.3em;
+}
+
+aside p em {
+    color: rgba(255, 255, 255, .3);
+}
+
+aside a {
+    display: inline-block;
+    background-color: #6ecff6;
+    color: #233e72;
+    border: 2px solid #233e72;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+aside a::after {
+    content: '>>';
+    padding-left: 10px;
+}
+
+
+
+
+
