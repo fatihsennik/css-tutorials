@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Abel');
+
+html {
+    background: #000 url(https://picsum.photos/1000/1000) no-repeat center bottom fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Abel', sans-serif;
+}
+
+article {
+    margin: 15px 40px;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-weight: normal;
+    font-size: 4em;
+    color: #fff;
+    line-height: 1.2em;
+    margin: 10px 0 0 0;
+}
+
+p {
+    margin: 0 0 1em 0;
+    line-height: 1.2em;
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.1em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+article nav {
+    margin: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    padding: 15px 0 0 0;
+    position: relative;
+    color: rgba(255, 255, 255, .6);
+}
+
+article nav div {
+    margin: 0 0 15px 100px;
+    position: relative;
+}
+
+
+article nav div::before {
+    display: inline-block;
+    top: 2px;
+    left: -100px;
+    position: absolute;
+    width: 100px;
+    font-size: 1.2em;
+}
+
+
+article nav div:nth-child(1)::before {
+    content: "Heading1";
+}
+
+article nav div:nth-child(2)::before {
+    content: "Heading2";
+}
+
+
+@media screen and (max-width: 550px) {
+
+    article nav div {
+        margin-left: 0;
+
+    }
+    article nav div::before {
+        display: block;
+        position: static;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
