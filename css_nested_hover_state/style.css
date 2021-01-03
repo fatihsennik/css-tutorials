@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,400italic);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.25em;
+    color: #625c3c;
+    background-color: #decaa0;
+}
+
+
+main {
+    margin: 25px 10px;
+    text-align: center;
+}
+
+a.landmark {
+    display: inline-block;
+    border: 5px solid #e7e2c9;
+    margin: 8px;
+    position: relative;
+    width: 170px;
+    height: 170px;
+}
+
+a.landmark img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+}
+
+a.landmark > span {
+    display: block;
+    width: inherit;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 2.5em;
+    color: rgba(255, 255, 255, .8);
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+a.landmark > span em {
+    font-style: italic;
+    margin-top: -13px;
+    color: rgba(255, 255, 255, .5);
+    font-size: .9em;
+    display: none;
+}
+
+
+a.landmark:hover {
+    border: 5px solid #df8a0d;
+}
+
+a.landmark:hover > span {
+    background-color: #000;
+}
+
+
+a.landmark:hover > span:hover em {
+    display: block;
+}
+
+
+
+
+
+
