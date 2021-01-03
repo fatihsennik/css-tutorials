@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700|Bitter');
+
+html {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.1em;
+	background: #eee url(https://picsum.photos/1000/1000) no-repeat 30% top;
+	background-size: cover;
+}
+
+article {
+	margin: 30px auto 0 auto;
+	width: 90%;
+	padding: 0;
+}
+
+h1 {
+	margin: 15px 0 .7em 0;
+	font-family: 'Bitter', serif;
+	font-size: 1.75em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #f6b84d;
+}
+
+p { margin: 0 0 1em 0; }
+
+table {
+	color: rgba(255,255,255,.8);
+	border: 1px solid rgba(255,255,255,.5);
+	border-collapse: collapse;
+	margin: 0 auto 0;
+	font-size: .9em;
+	background-color: rgba(42, 0, 78,.9);
+}
+
+table td {
+	padding: 5px 12px;
+}
+
+table thead tr {
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	background-color: rgba(0, 10, 255, 0.2)
+}
+
+table thead td {
+	white-space: nowrap;
+	font-size: .7em;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+
+table tbody tr:nth-child(even) {
+	background-color: rgba(255,255,255,.1);
+}
+
+table tbody td:nth-child(1) {
+	font-weight: bold;
+	color: #fff;
+}
+
+table tbody td:nth-child(2) {
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
