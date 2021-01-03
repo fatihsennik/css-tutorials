@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Orbitron');
+
+body {
+    line-height: 1.3em;
+    font-size: 16px;
+    margin: 0;
+    padding: 25px 0 50px 0;
+    font-family: 'Georgia', serif;
+    background: #090b50 url(https://picsum.photos/1000/1000) no-repeat 0 0;
+    background-size: cover;
+}
+
+article {
+    margin: 0 20px 0 160px;
+    color: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+blockquote {
+    width: 75%;
+    margin: 50px auto 80px auto;
+    line-height: 1.3em;
+    color: #fff;
+    font-size: 1.6em;
+    position: relative;
+}
+
+/*https://unicode-table.com/tr/#basic-latin*/
+
+
+blockquote::before {
+    content: "\201C";
+    position: absolute;
+    font-size: 4.2em;
+    left: -46px;
+    top: 15px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+blockquote::after {
+    content: "\201D";
+    position: absolute;
+    font-size: 4.2em;
+    bottom: -36px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+blockquote cite {
+    color: rgba(255, 255, 255, .4);
+    display: block;
+    position: absolute;
+    font-size: .7em;
+    bottom: -2.5em;
+}
+
+blockquote cite::before {
+    content: '\2014';
+    padding-right: 5px;
+}
+
+
