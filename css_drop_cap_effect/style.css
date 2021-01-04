@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sofia');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5em;
+    background: #eee url("https://picsum.photos/1000/1000") no-repeat 0 top fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0px auto;
+    background-color: rgba(56, 42, 35, .86);
+    padding: 100px 40px 25px 70px;
+    width: 60%;
+}
+
+
+article p:first-child::first-letter {
+    font-family: 'sofia', cursive;
+    font-size: 8.0em;
+    line-height: .9em;
+    padding: 0;
+    color: #825b28;
+    margin: 0 -11px 0 -24px;
+    float: left;
+}
+
+/*article p:first-letter {
+
+    font-family: 'sofia', cursive ;
+    font-size: 4.0em;
+    line-height: .9em;
+    padding: 0;
+    color: #825b28;
+    margin: 0 -11px 0 -20px;
+
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
