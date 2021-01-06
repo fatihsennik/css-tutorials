@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes|Abel');
+
+html {
+    background: #000 url(https://picsum.photos/1000/1000) no-repeat left bottom fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+article {
+    margin: 100px auto;
+    width: 58%;
+    padding: 60px 45px 10px 45px;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    border: 5px solid #6dcff6;
+    border-radius: 30px;
+    background-color: rgba(29, 52, 91, .8);
+    box-shadow: 0px 4px 10px rgb(29, 52, 91);
+    position: relative;
+
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.6em;
+    line-height: 1em;
+    margin: 0 0 15px 0;
+    color: #ffffff;
+}
+
+p {
+    margin: 0 0 1em 0;
+    font-size: 1.2em;
+    line-height: 1.1em;
+}
+
+
+article img {
+    position: absolute;
+    border: 5px solid #6dcff6;
+    border-radius: 30px;
+    top: -40px;
+    /*Half of the current img width*/
+    left: calc(50% - 50px);
+   /* or margin-left: -50px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
