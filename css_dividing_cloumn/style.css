@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Abel');
+
+html {
+    background: #000 url("https://picsum.photos/1000/1000") no-repeat center bottom fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0 1.7em 0;
+    color: #ffffff;
+    word-spacing: 7px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: -1.8em 0 .5em 0;
+    color: #fdc025;
+    text-align: center;
+}
+
+article {
+    margin: 20px 35px 0 35px;
+    color: rgba(255, 255, 255, .7);
+}
+
+article::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+article aside {
+
+    float: left;
+    width: 33%;
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+}
+
+
+article aside:first-of-type {
+
+    border-left: unset;
+}
+
+
+
+
+
+
+
+
+
