@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: #000 url(https://picsum.photos/1000/1000) no-repeat center bottom;
+    background-size: cover;
+}
+
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 16px;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: palegreen;
+    padding: 8px;
+    display: inline-block;
+}
+
+
+h1 {
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    margin: 0 0 20px 0;
+    padding-left: 60px;
+    cursor: pointer;
+    position: relative;
+}
+
+label div {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 45px;
+    height: 24px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    transition: background-color .3s;
+}
+
+label div::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, .5);
+    transition: left .3s;
+}
+
+label input {
+    display: none;
+}
+
+
+label input:checked + div::after {
+    left: calc(100% - 21px);
+    background-color: palegreen;
+}
+
+
+label input:checked + div {
+    border-color: palegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
