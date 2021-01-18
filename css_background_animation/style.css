@@ -1,0 +1,54 @@
+
+body {
+	font-size:16px;
+	color: #0a5471;
+	margin: 0;
+	padding: 0;
+	background-color: #90cde3;
+}
+
+article {
+	width: 70%;
+	margin: 40px auto 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+h1 {
+	font-size: 3.85em;
+	margin: 0 0 .5em 0;
+}
+
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 350px 0 0 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-image: url("images/clouds_tile.jpg");
+    animation: animate_clouds 72s infinite linear;
+
+}
+
+@keyframes animate_clouds {
+
+	0% { background-position: 0 0;}
+	100% { background-position: -2212px 0;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
