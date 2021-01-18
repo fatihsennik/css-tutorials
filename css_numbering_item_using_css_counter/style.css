@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Playball');
+
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #3b3300;
+	background-color: #e2dfcb;
+}
+
+
+h1 {
+	font-size: 4.5em;
+	font-family: 'Playball', cursive;
+	color: #730054;
+	margin: 0 0 10px 0;
+}
+
+
+
+article {
+	padding: 20px;
+	counter-reset: myFigures;
+}
+
+figure {
+	border: 1px solid #ddd;
+	counter-increment: myFigures;
+}
+
+figure:before {
+	border: 1px solid #ddd;
+	content: "Fig: " counter(myFigures);
+	display: block;
+	color: #2f2f2a;
+	margin-bottom: 5px;
+}
+
+
+figure#bowl_1 {
+	width: 25%;
+	float: right;
+	margin: 5px 0 25px 35px;
+}
+
+figure#bowl_2 {
+	width: 35%;
+	float: left;
+	margin: 5px 35px 25px 0;
+}
+
+figure#bowl_3 {
+	width: 55%;
+	float: right;
+	margin: 5px 0 25px 35px;
+}
+
+figure img {
+	width: 100%;
+}
+
+
+figcaption {
+	font-size: .9em; 
+	padding: 5px 12px 12px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
